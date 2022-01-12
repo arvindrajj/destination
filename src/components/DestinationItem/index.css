@@ -1,0 +1,28 @@
+.destination-container {
+  text-align: center;
+  margin-top: 18px;
+  list-style-type: none;
+}
+.img {
+  max-width: 70%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.12);
+}
+@media all and (min-width: 768px) {
+  .destination-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    list-style-type: none;
+    width: 49%;
+  }
+  .img {
+    min-width: 340px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.12);
+  }
+}
+.name {
+  color: #252627;
+  font-size: 28px;
+  font-family: 'Open Sans';
+  align-self: flex-start;
+}
